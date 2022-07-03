@@ -1,0 +1,83 @@
+body {
+    background: #e9edc9;
+
+}
+
+.header {
+    text-align: center;
+    background: url("kelowna.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 10px 2px 5px 2px;
+    color: #9AA2B7;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#kelowna {
+    background: linear-gradient(#133C22, #2a9d8f);
+    margin: 60px auto;
+    padding: 8px 16px;
+    border-radius: 17px;
+
+
+}
+
+#tagline {
+    background: #152F42;
+    margin: 2px auto;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 2px solid #0D1C25;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.activity {
+    border: 1px solid #152F42;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto 20px auto;
+    border-radius: 80%;
+}
+
+.explore {
+    text-align: center;
+    max-width: 250px;
+}
+
+.footer {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    background: linear-gradient(#005f73,#94d2bd);
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 20px;
+
+ }
+
+
+#robyn {
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #152F42;
+}
+
+#guide {
+    margin: auto auto auto 20px;
+
+}
+
